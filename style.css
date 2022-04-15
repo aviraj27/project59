@@ -1,0 +1,54 @@
+#welcome{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-variant:small-caps;
+    font-weight: bolder;
+    font-size:50px;
+}
+body{
+text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.abouttext{
+    font-family: 'My Soul', cursive;
+    font-size:35px;
+}
+.para{
+    font-family: 'Patrick Hand', cursive;
+    font-size:20px;
+}
+a{
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+}
+.menu{
+    list-style:none;
+    font-family:fantasy;
+    position:fixed;
+    top:10px;
+    right:10px;
+    z-index:9;
+    cursor: pointer;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+.link{
+float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+}
+.link:hover{
+ background-color:black;   
+}
+#anchor:hover{
+    color:black;
+}
